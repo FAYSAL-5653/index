@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar {
+    height: 50px;
+    background-color: aqua;
+    width: 100%;
+    padding-left: 200px;
+    display: flex;
+}
+
+.logo {
+
+    width: 300px;
+    display: flex;
+    background-color: rgba(41, 41, 255, 0.89);
+
+}
+
+.logo h1 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.manu {
+    display: flex;
+    width: 900px;
+    justify-content: right;
+
+
+}
+
+.manu ul {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.manu ul li {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+}
+
+.manu ul li a {
+    display: flex;
+    text-decoration: none;
+}
